@@ -80,7 +80,6 @@ const saveImg = (canvas) => {
         options.imgOption ??= {};
         options.imgOption.square = options["imgOption.square"];
     }
-    console.log(options);
     new SpachaImage(ctx, options);
 
     saveImg(canvas);
